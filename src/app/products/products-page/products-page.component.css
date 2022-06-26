@@ -1,0 +1,4 @@
+app-product-list {
+    display: flex;
+    justify-content: space-around;
+}

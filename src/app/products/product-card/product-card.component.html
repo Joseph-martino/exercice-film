@@ -1,0 +1,13 @@
+<div class="product-card">
+    <h2>{{ product.nom }}</h2>
+    <img src="{{ product.img }}" alt="">
+    <div class="text-container">
+        <h3>{{product.real}}</h3>
+        <p>{{ product.synopsis | slice:-55 }}</p>
+        <p>{{ product.annee }}</p>
+    </div>
+</div>
+
+
+
+
